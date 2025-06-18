@@ -32,7 +32,8 @@ team_settings:
       enable_failing_policies_webhook: true
       destination_url : https://example.org/webhoook_handler
       host_batch_size: 0
-      policy_ids: 46
+      policy_ids:
+        - 46
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
 software:
